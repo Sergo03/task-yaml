@@ -1,1 +1,11 @@
-# task-yaml
+|NAME|PROMPT|DESCRIPTION|EXAMPLE|
+|----|------|-----------|-------|
+|app|Specify the image name for the application|This prompt allows the user to provide the image name that will be used for the application.|https://github.com/Sergo03/task-yaml/blob/main/yaml/app.yaml |
+|app-livenessProbe|Configure the liveness probe for the application.|This prompt allows the user to configure the liveness probe, which determines if the application is running correctly.|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-livenessProbe.yaml |
+|app-readinessProbe|Configure the readiness probe for the application|This prompt allows the user to configure the readiness probe, which determines if the application is ready to accept traffic|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-readinessProbe.yaml |
+|app-volumeMounts|Specify the image name for the application|This prompt allows the user to specify the volume mounts that should be attached to the application containers|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-volumeMounts.yaml |
+|app-cronjob|Configure the cron schedule for the cron job|This prompt allows the user to specify the cron schedule for the cron job, which determines when it should run|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-cronjob.yaml |
+|app-job|Specify the command to be executed by the job|This prompt allows the user to specify the command that will be executed by the job|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-job.yaml |
+|app-multicontainer|Configure the additional containers for the pod|This prompt allows the user to configure additional containers that should run alongside the main application container in the pod|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-multicontainer.yaml |
+|app-resources|Specify the image name for the application|This prompt allows the user to provide the image name that will be used for the application.|https://github.com/Sergo03/task-yaml/blob/main/yaml/app-resources.yaml|
+|app-secret-env|Specify the image name for the application|This prompt allows the user to provide the image name that will be used for the application.|[https://github.com/Sergo03/task-yaml/blob/main/yaml/app.yam](https://github.com/Sergo03/task-yaml/blob/main/yaml/app-secret-env.yaml) |
